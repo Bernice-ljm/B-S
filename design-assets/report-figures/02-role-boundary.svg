@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="100.87mm" viewBox="0 0 482 286" role="img">
+<title>角色、动作与数据边界</title>
+<rect x="0" y="0" width="482" height="286" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">角色、动作与数据边界</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">角色决定可执行动作，资源归属与节点分配决定可见数据</text>
+<rect x="18" y="65" width="132" height="118" rx="5" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+<text x="84.0" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#1F2937">普通员工</text>
+<text x="84.0" y="106" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">起草 / 提交本人申请</text>
+<text x="84.0" y="119" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">查看本人进度与附件</text>
+<text x="84.0" y="132" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">按规则撤回</text>
+<rect x="175" y="65" width="132" height="118" rx="5" fill="#2563EB" stroke="#1D4ED8" stroke-width="1.1"/>
+<text x="241.0" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#FFFFFF">审批角色</text>
+<text x="241.0" y="106" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">只处理本人当前待办</text>
+<text x="241.0" y="119" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">负责人：授权部门统计</text>
+<text x="241.0" y="132" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">财务：指定财务节点</text>
+<text x="241.0" y="145" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">企业负责人：授权高阶待办</text>
+<rect x="332" y="65" width="132" height="118" rx="5" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+<text x="398.0" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#1F2937">系统管理员</text>
+<text x="398.0" y="106" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">维护用户 / 部门 / 角色</text>
+<text x="398.0" y="119" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">维护流程模板</text>
+<text x="398.0" y="132" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">管理权 ≠ 审批权</text>
+<text x="398.0" y="145" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">业务正文需另行授权</text>
+<rect x="86" y="212" width="310" height="32" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+<text x="241.0" y="230.8" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">统一服务端权限检查：列表 ｜ 详情 ｜ 审批 ｜ 附件 ｜ 通知</text>
+<line x1="84" y1="183" x2="84" y2="206" stroke="#475569" stroke-width="1.6"/>
+<path d="M80 206 L84 212 L88 206 Z" fill="#475569" stroke="none"/>
+<line x1="241" y1="183" x2="241" y2="206" stroke="#475569" stroke-width="1.6"/>
+<path d="M237 206 L241 212 L245 206 Z" fill="#475569" stroke="none"/>
+<line x1="398" y1="183" x2="398" y2="206" stroke="#475569" stroke-width="1.6"/>
+<path d="M394 206 L398 212 L402 206 Z" fill="#475569" stroke="none"/>
+<text x="241" y="270" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8" font-weight="700" fill="#B42318">任何人不得审批本人申请；非当前审批人不得操作节点</text>
+</svg>
