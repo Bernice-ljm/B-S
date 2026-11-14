@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="131.20mm" viewBox="0 0 482 372" role="img">
+<title>三类固定业务：表单结构与提交校验</title>
+<rect x="0" y="0" width="482" height="372" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">三类固定业务：表单结构与提交校验</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">页面字段与服务端规则一一对应，草稿允许不完整，提交必须通过完整校验</text>
+<rect x="14" y="58" width="138" height="244" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="14" y="58" width="138" height="36" rx="5" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="26" y="80" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">采购申请</text>
+<rect x="26" y="104" width="114" height="22" rx="11" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.7"/>
+<text x="83" y="118.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">至少 2 条采购明细</text>
+<circle cx="31" cy="149" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="151" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">标题 · 原因 · 到货日期</text>
+<circle cx="31" cy="173" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="175" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">项目 · 预算上限 · 备注</text>
+<circle cx="31" cy="197" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="199" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">名称 · 规格 · 数量 · 单位</text>
+<circle cx="31" cy="221" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="223" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">预计单价 · 行金额</text>
+<circle cx="31" cy="245" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="247" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">至少 2 家报价 / 单一来源说明</text>
+<circle cx="31" cy="269" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="39" y="271" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">拟选供应商 · 选择理由</text>
+<rect x="172" y="58" width="138" height="244" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="172" y="58" width="138" height="36" rx="5" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="184" y="80" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">差旅申请</text>
+<rect x="184" y="104" width="114" height="22" rx="11" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.7"/>
+<text x="241" y="118.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">系统计算自然日</text>
+<circle cx="189" cy="149" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="151" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">出发地 · 目的地</text>
+<circle cx="189" cy="173" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="175" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">开始 / 结束时间</text>
+<circle cx="189" cy="197" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="199" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">出差目的 · 同行人员</text>
+<circle cx="189" cy="221" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="223" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">交通方式 · 费用预算</text>
+<circle cx="189" cy="245" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="247" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">补充附件</text>
+<circle cx="189" cy="269" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="197" y="271" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">结束时间 ≥ 开始时间</text>
+<rect x="330" y="58" width="138" height="244" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="330" y="58" width="138" height="36" rx="5" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="342" y="80" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">报销申请</text>
+<rect x="342" y="104" width="114" height="22" rx="11" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.7"/>
+<text x="399" y="118.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">至少 3 条费用明细</text>
+<circle cx="347" cy="149" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="151" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">标题 · 说明 · 关联申请</text>
+<circle cx="347" cy="173" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="175" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">交通 / 住宿 / 餐饮 / 办公 / 其他</text>
+<circle cx="347" cy="197" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="199" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">日期 · 用途 · 精确金额</text>
+<circle cx="347" cy="221" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="223" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">每项 1+ 票据</text>
+<circle cx="347" cy="245" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="247" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">无票例外 + 原因</text>
+<circle cx="347" cy="269" r="2.4" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="355" y="271" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.1" font-weight="400" fill="#1F2937">服务端重新计算合计</text>
+<rect x="44" y="326" width="394" height="28" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+<text x="241.0" y="342.8" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">共同提交规则：身份取会话 ｜ 时间取服务端 ｜ 金额精确计算 ｜ 校验失败定位字段 / 明细行</text>
+</svg>

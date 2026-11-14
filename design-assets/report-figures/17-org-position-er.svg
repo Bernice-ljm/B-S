@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="123.44mm" viewBox="0 0 482 350" role="img">
+<title>关系模型 A：组织、角色与审批岗位</title>
+<rect x="0" y="0" width="482" height="350" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">关系模型 A：组织、角色与审批岗位</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">角色能力与审批岗位分离；岗位任期解决人员接替及历史解释</text>
+<rect x="18" y="60" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="18" y="60" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="75" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">DEPARTMENT</text>
+<text x="27" y="102" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PK id</text>
+<text x="27" y="115" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">UK name</text>
+<text x="27" y="128" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">status</text>
+<rect x="184" y="60" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="184" y="60" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="241" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">USER</text>
+<text x="193" y="102" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PK id</text>
+<text x="193" y="115" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">UK username / email</text>
+<text x="193" y="128" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">department_id FK</text>
+<text x="193" y="141" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">status</text>
+<rect x="350" y="60" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="350" y="60" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="407" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">ROLE</text>
+<text x="359" y="102" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PK id</text>
+<text x="359" y="115" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">UK code</text>
+<text x="359" y="128" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">name</text>
+<rect x="18" y="210" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="1"/>
+<rect x="18" y="210" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="75" y="226" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">APPROVAL_POSITION</text>
+<text x="27" y="252" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PK id</text>
+<text x="27" y="265" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">department_id FK</text>
+<text x="27" y="278" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">duty</text>
+<text x="27" y="291" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">effective_from / to</text>
+<rect x="184" y="210" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="1"/>
+<rect x="184" y="210" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="241" y="226" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">POSITION_ASSIGNMENT</text>
+<text x="193" y="252" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PK id</text>
+<text x="193" y="265" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">position_id FK</text>
+<text x="193" y="278" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">user_id FK</text>
+<text x="193" y="291" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">PRIMARY / BACKUP</text>
+<rect x="350" y="210" width="114" height="90" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="350" y="210" width="114" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="407" y="226" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">USER_ROLE</text>
+<text x="359" y="252" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">user_id FK</text>
+<text x="359" y="265" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">role_id FK</text>
+<text x="359" y="278" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">UK (user_id, role_id)</text>
+<line x1="132" y1="105" x2="178" y2="105" stroke="#475569" stroke-width="1.6"/>
+<path d="M178 101 L184 105 L178 109 Z" fill="#475569" stroke="none"/>
+<text x="158" y="97" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : N</text>
+<path d="M75 150 V190 H75 V210" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="88" y="185" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : N 岗位</text>
+<line x1="132" y1="255" x2="178" y2="255" stroke="#475569" stroke-width="1.6"/>
+<path d="M178 251 L184 255 L178 259 Z" fill="#475569" stroke="none"/>
+<text x="158" y="247" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : N</text>
+<path d="M241 150 V190 H241 V210" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="254" y="185" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : N 任职</text>
+<path d="M298 105 H326 V255 H350" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="327" y="180" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937" transform="rotate(90 327 180)">用户多角色</text>
+<line x1="464" y1="105" x2="464" y2="204" stroke="#475569" stroke-width="1.6"/>
+<path d="M460 204 L464 210 L468 204 Z" fill="#475569" stroke="none"/>
+<text x="451" y="181" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : N</text>
+<rect x="43" y="321" width="396" height="22" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+<text x="241.0" y="334.8" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">唯一规则：同一部门 + 职责 + 有效期内仅 1 名 PRIMARY；历史任期不覆盖，待办转移另记审计</text>
+</svg>

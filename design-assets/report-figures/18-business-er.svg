@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="142.84mm" viewBox="0 0 482 405" role="img">
+<title>关系模型 B：申请主记录与三类业务明细</title>
+<rect x="0" y="0" width="482" height="405" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">关系模型 B：申请主记录与三类业务明细</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">统一查询字段进入 APPLICATION；采购、差旅、报销分别保存结构化专属数据</text>
+<rect x="176" y="55" width="130" height="80" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="1"/>
+<text x="241.0" y="72" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#FFFFFF">APPLICATION</text>
+<text x="184" y="91" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#FFFFFF">PK id · UK application_no</text>
+<text x="184" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#FFFFFF">applicant_id / department_id FK</text>
+<text x="184" y="115" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#FFFFFF">type · status · amount_minor</text>
+<text x="184" y="127" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#FFFFFF">template_version_id · source_id</text>
+<rect x="12" y="170" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="66.0" y="187" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">PROCUREMENT</text>
+<text x="20" y="206" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">PK/FK application_id</text>
+<text x="20" y="218" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">reason · expected_date</text>
+<text x="20" y="230" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">budget_minor · chosen_quote</text>
+<rect x="187" y="170" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="241.0" y="187" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">TRAVEL</text>
+<text x="195" y="206" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">PK/FK application_id</text>
+<text x="195" y="218" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">origin · destination</text>
+<text x="195" y="230" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">start_at · end_at</text>
+<text x="195" y="242" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">duration_days · budget</text>
+<rect x="362" y="170" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="416.0" y="187" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">REIMBURSEMENT</text>
+<text x="370" y="206" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">PK/FK application_id</text>
+<text x="370" y="218" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">source_application_id</text>
+<text x="370" y="230" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">explanation</text>
+<text x="370" y="242" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">total_amount_minor</text>
+<rect x="12" y="292" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="66.0" y="309" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">PROCUREMENT_ITEM</text>
+<text x="20" y="328" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">procurement_id FK</text>
+<text x="20" y="340" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">name · spec · qty · unit</text>
+<text x="20" y="352" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">unit_price · amount</text>
+<rect x="132" y="292" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="186.0" y="309" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">SUPPLIER_QUOTE</text>
+<text x="140" y="328" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">procurement_id FK</text>
+<text x="140" y="340" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">supplier · date · amount</text>
+<text x="140" y="352" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">link / attachment</text>
+<rect x="252" y="292" width="108" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="306.0" y="309" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">EXPENSE_ITEM</text>
+<text x="260" y="328" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">reimbursement_id FK</text>
+<text x="260" y="340" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">type · date · purpose</text>
+<text x="260" y="352" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">amount · no_receipt</text>
+<rect x="372" y="292" width="98" height="80" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="421.0" y="309" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">ITEM_RECEIPT</text>
+<text x="380" y="328" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">expense_item_id FK</text>
+<text x="380" y="340" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">attachment_id FK</text>
+<text x="380" y="352" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">UK reimbursement + file</text>
+<path d="M241 135 V151 H66 V170" fill="none" stroke="#475569" stroke-width="1.35"/>
+<path d="M241 135 V170" fill="none" stroke="#475569" stroke-width="1.35"/>
+<path d="M241 135 V151 H416 V170" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="74" y="160" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : 0..1</text>
+<text x="249" y="160" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : 0..1</text>
+<text x="424" y="160" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1 : 0..1</text>
+<line x1="66" y1="250" x2="66" y2="286" stroke="#475569" stroke-width="1.6"/>
+<path d="M62 286 L66 292 L70 286 Z" fill="#475569" stroke="none"/>
+<path d="M66 250 V270 H186 V292" fill="none" stroke="#475569" stroke-width="1.35"/>
+<line x1="416" y1="250" x2="416" y2="286" stroke="#475569" stroke-width="1.6"/>
+<path d="M412 286 L416 292 L420 286 Z" fill="#475569" stroke="none"/>
+<path d="M416 250 V270 H306 V292" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="241" y="392" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">提交校验：type 与详情表匹配 ｜ 金额由明细重算 ｜ source 仅允许本人已批准采购/差旅 ｜ 已提交记录不级联删除</text>
+</svg>

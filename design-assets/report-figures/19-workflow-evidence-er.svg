@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="141.08mm" viewBox="0 0 482 400" role="img">
+<title>关系模型 C：流程运行、附件、通知与审计证据</title>
+<rect x="0" y="0" width="482" height="400" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">关系模型 C：流程运行、附件、通知与审计证据</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">实例节点保存实际审批人快照；日志与通知以唯一业务键抵抗重复请求</text>
+<rect x="14" y="60" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="14" y="60" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="68" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">APPLICATION</text>
+<text x="22" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">PK id</text>
+<text x="22" y="116" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">status · row_version</text>
+<rect x="132" y="60" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="132" y="60" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="186" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">WORKFLOW_INSTANCE</text>
+<text x="140" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">application_id UK/FK</text>
+<text x="140" y="116" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">template_version_id</text>
+<text x="140" y="129" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">created_at</text>
+<rect x="250" y="60" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="1"/>
+<rect x="250" y="60" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="304" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">INSTANCE_NODE</text>
+<text x="258" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">instance_id FK</text>
+<text x="258" y="116" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">sequence_no</text>
+<text x="258" y="129" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">assignee_id · status</text>
+<rect x="368" y="60" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#2563EB" stroke-width="1"/>
+<rect x="368" y="60" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="422" y="76" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">APPROVAL_LOG</text>
+<text x="376" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">node_id FK</text>
+<text x="376" y="116" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">actor · action · opinion</text>
+<text x="376" y="129" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">UK request_key</text>
+<rect x="14" y="225" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="14" y="225" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="68" y="241" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">ATTACHMENT</text>
+<text x="22" y="268" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">uploader_id</text>
+<text x="22" y="281" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">storage_key</text>
+<text x="22" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">mime · size</text>
+<rect x="132" y="225" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="132" y="225" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="186" y="241" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">ATTACHMENT_BIND</text>
+<text x="140" y="268" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">application_id FK</text>
+<text x="140" y="281" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">attachment_id FK</text>
+<text x="140" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">purpose / quote_id</text>
+<rect x="250" y="225" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="250" y="225" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="304" y="241" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">NOTIFICATION</text>
+<text x="258" y="268" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">recipient_id FK</text>
+<text x="258" y="281" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">application_id FK</text>
+<text x="258" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">UK recipient + event</text>
+<rect x="368" y="225" width="108" height="92" rx="4" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<rect x="368" y="225" width="108" height="24" rx="4" fill="#EFF6FF" stroke="none" stroke-width="0"/>
+<text x="422" y="241" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">ADMIN_AUDIT</text>
+<text x="376" y="268" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">actor_id</text>
+<text x="376" y="281" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">target · action</text>
+<text x="376" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">before / after</text>
+<line x1="122" y1="106" x2="126" y2="106" stroke="#475569" stroke-width="1.6"/>
+<path d="M126 102 L132 106 L126 110 Z" fill="#475569" stroke="none"/>
+<line x1="240" y1="106" x2="244" y2="106" stroke="#475569" stroke-width="1.6"/>
+<path d="M244 102 L250 106 L244 110 Z" fill="#475569" stroke="none"/>
+<line x1="358" y1="106" x2="362" y2="106" stroke="#475569" stroke-width="1.6"/>
+<path d="M362 102 L368 106 L362 110 Z" fill="#475569" stroke="none"/>
+<text x="127" y="98" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">1:1</text>
+<text x="245" y="98" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">1:N</text>
+<text x="363" y="98" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">1:N</text>
+<path d="M68 152 V198 H186 V225" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="112" y="190" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1:N 绑定</text>
+<line x1="122" y1="271" x2="126" y2="271" stroke="#475569" stroke-width="1.6"/>
+<path d="M126 267 L132 271 L126 275 Z" fill="#475569" stroke="none"/>
+<text x="127" y="263" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">N:M</text>
+<path d="M68 152 V187 H304 V225" fill="none" stroke="#475569" stroke-width="1.35"/>
+<text x="258" y="180" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937">1:N 状态事件</text>
+<path d="M422 152 V188 H422 V225" fill="none" stroke="#475569" stroke-width="1.35" stroke-dasharray="4 3"/>
+<text x="410" y="190" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#1F2937" transform="rotate(90 410 190)">管理操作</text>
+<rect x="48" y="348" width="386" height="30" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+<text x="241.0" y="365.8" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">保留策略：申请 / 节点 / 日志 / 通知 / 审计追加保留；附件先解除草稿绑定并延迟清理，不暴露物理路径</text>
+</svg>

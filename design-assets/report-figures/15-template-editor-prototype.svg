@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="132.61mm" viewBox="0 0 482 376" role="img">
+<title>管理员原型：自定义表单与审批流程配置</title>
+<rect x="0" y="0" width="482" height="376" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">管理员原型：自定义表单与审批流程配置</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">以“设备借用”为例，不修改代码即可发布第四类流程</text>
+<rect x="14" y="52" width="454" height="294" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+<rect x="14" y="52" width="454" height="34" rx="5" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="28" y="74" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#1F2937">模板管理 / 设备借用 / 草稿 v1</text>
+<rect x="354" y="60" width="42" height="18" rx="3" fill="#FFFFFF" stroke="#93C5FD" stroke-width="0.7"/>
+<text x="375" y="72.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#2563EB">预览</text>
+<rect x="404" y="60" width="50" height="18" rx="3" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="429" y="72.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#FFFFFF">校验并发布</text>
+<rect x="28" y="100" width="202" height="220" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="42" y="122" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#1F2937">申请表单</text>
+<text x="42" y="141" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#64748B">字段组件</text>
+<rect x="42" y="152" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="78" y="165" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">单行文本</text>
+<rect x="126" y="152" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="162" y="165" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">多行文本</text>
+<rect x="42" y="180" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="78" y="193" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">金额 / 数字</text>
+<rect x="126" y="180" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="162" y="193" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">日期</text>
+<rect x="42" y="208" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="78" y="221" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">单选</text>
+<rect x="126" y="208" width="72" height="19" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="162" y="221" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">附件</text>
+<text x="42" y="246" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#64748B">已配置字段</text>
+<text x="48" y="258" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">设备名称 *　text</text>
+<text x="48" y="276" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">归还日期 *　date</text>
+<text x="48" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">借用原因 *　textarea</text>
+<rect x="246" y="100" width="208" height="220" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="260" y="122" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#1F2937">审批流程（可调整顺序）</text>
+<line x1="278" y1="154" x2="278" y2="242" stroke="#93C5FD" stroke-width="2"/>
+<circle cx="278" cy="157" r="11" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="278" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="700" fill="#FFFFFF">01</text>
+<rect x="300" y="145" width="138" height="46" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="310" y="163" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">申请人所在部门负责人</text>
+<text x="310" y="179" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">规则自动解析为具体用户</text>
+<circle cx="278" cy="219" r="11" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="278" y="222" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="700" fill="#FFFFFF">02</text>
+<rect x="300" y="207" width="138" height="46" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="310" y="225" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">设备管理员审核</text>
+<text x="310" y="241" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">指定用户：赵宁</text>
+<rect x="260" y="274" width="178" height="28" rx="4" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.7"/>
+<text x="349" y="292" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#1F2937">发布后形成不可变版本；停用只影响新申请</text>
+<text x="241" y="365" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#1F2937">发布校验：字段 key 唯一 ｜ 校验规则合法 ｜ 节点不少于 2 个 ｜ 审批人可解析 ｜ 不允许循环</text>
+</svg>
