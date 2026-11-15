@@ -65,8 +65,9 @@ def template_editor():
 
 
 def list_notification_states():
-    f = Fig("列表、统计、通知与交互状态", "基础功能不仅有正常页面，还要覆盖筛选分页、持久通知和失败反馈", 374)
-    f.rect(14, 54, 292, 238, "#FFFFFF", BORDER, 5, 1)
+    f = Fig("列表、统计、通知与交互状态", "基础功能不仅有正常页面，还要覆盖筛选分页、持久通知和失败反馈", 430)
+    # 上半部分左右面板统一到底部 y=334，统计内容不再溢出面板。
+    f.rect(14, 54, 292, 280, "#FFFFFF", BORDER, 5, 1)
     f.text(28, 76, "我的申请", 9.5, weight=700)
     filters = [(28, 88, 62, "类型：全部"), (96, 88, 62, "状态：审批中"), (164, 88, 82, "时间：本月"), (252, 88, 42, "搜索")]
     for x, y, w, label in filters:
@@ -78,10 +79,12 @@ def list_notification_states():
         f.text(40, y, row[0], 6.8); f.text(126, y, row[1], 6.8); f.text(264, y, row[2], 6.8, "middle", BLUE if i < 2 else "#B42318")
     f.text(28, 243, "共 27 条　每页 10 条", 6.5, fill="#64748B")
     f.text(280, 243, "‹  1  2  3  ›", 6.8, "end")
-    f.text(28, 266, "统计口径：本月提交且最终通过", 6.8, weight=700)
+    f.text(28, 267, "统计口径：本月提交且最终通过", 6.8, weight=700)
     for i, (label, value, width) in enumerate([("采购  ¥42k", 42, 152), ("差旅  ¥18k", 18, 65), ("报销  ¥31k", 31, 112)]):
-        y = 279 + i * 13; f.text(28, y, label, 5.9); f.rect(94, y - 8, width, 7, BLUE if i == 0 else "#93C5FD", "none", 1, 0)
-    f.rect(322, 54, 146, 238, "#FFFFFF", BORDER, 5, 1)
+        y = 286 + i * 17
+        f.text(28, y, label, 5.9)
+        f.rect(94, y - 9, width, 8, BLUE if i == 0 else "#93C5FD", "none", 2, 0)
+    f.rect(322, 54, 146, 280, "#FFFFFF", BORDER, 5, 1)
     f.text(336, 76, "通知中心", 9.5, weight=700); f.text(454, 76, "未读 3", 6.8, "end", BLUE, 700)
     notifications = [(98, "新的采购待办", "刚刚 · 点击进入详情"), (148, "差旅申请已通过", "10 分钟前"), (198, "报销申请被驳回", "昨天 · 查看理由")]
     for y, title, sub in notifications:
@@ -89,12 +92,14 @@ def list_notification_states():
         f.text(348, y - 2, title, 7, weight=700)
         f.text(348, y + 13, sub, 6.2, fill="#64748B")
         f.line(336, y + 25, 454, y + 25, "#E2E8F0", 0.6)
-    f.text(336, 257, "本人通知才能读取 / 标记已读", 6.4, fill="#475569")
+    f.rect(336, 286, 118, 29, PALE_BLUE, "#93C5FD", 4, 0.6)
+    f.text(395, 304, "仅本人可读取 / 标记已读", 6.2, "middle", fill="#475569")
+    f.text(14, 356, "统一页面状态反馈", 7.2, weight=700)
     states = [(14, "加载", "骨架屏"), (104, "空结果", "清除筛选"), (194, "校验错误", "定位字段"), (284, "操作失败", "保留输入"), (374, "危险操作", "二次确认")]
     for x, title, sub in states:
         fill = PALE_RED if title in ("操作失败", "危险操作") else PALE_BLUE
         stroke = "#E3A1A1" if fill == PALE_RED else "#93C5FD"
-        f.card(x, 316, 84, 42, title, (sub,), fill=fill, stroke=stroke, title_size=7.5)
+        f.card(x, 365, 84, 48, title, (sub,), fill=fill, stroke=stroke, title_size=7.5)
     f.save("16-list-notification-states")
 
 
