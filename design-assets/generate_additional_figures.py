@@ -29,7 +29,7 @@ def business_forms():
             f.circle(x + 17, y - 2, 2.4, BLUE)
             f.text(x + 25, y, line, 7.1)
     f.band(44, 326, 394, 28, "共同提交规则：身份取会话 ｜ 时间取服务端 ｜ 金额精确计算 ｜ 校验失败定位字段 / 明细行")
-    f.save("14-business-form-blueprint")
+    f.save("07-business-form-blueprint")
 
 
 def template_editor():
@@ -61,7 +61,7 @@ def template_editor():
     f.rect(260, 274, 178, 28, PALE_GREEN, "#86C7A5", 4, 0.7)
     f.text(349, 292, "发布后形成不可变版本；停用只影响新申请", 6.8, "middle")
     f.text(241, 365, "发布校验：字段 key 唯一 ｜ 校验规则合法 ｜ 节点不少于 2 个 ｜ 审批人可解析 ｜ 不允许循环", 7.2, "middle", INK, 700)
-    f.save("15-template-editor-prototype")
+    f.save("08-template-editor-prototype")
 
 
 def list_notification_states():
@@ -100,7 +100,7 @@ def list_notification_states():
         fill = PALE_RED if title in ("操作失败", "危险操作") else PALE_BLUE
         stroke = "#E3A1A1" if fill == PALE_RED else "#93C5FD"
         f.card(x, 365, 84, 48, title, (sub,), fill=fill, stroke=stroke, title_size=7.5)
-    f.save("16-list-notification-states")
+    f.save("09-list-notification-states")
 
 
 def org_position_er():
@@ -125,7 +125,7 @@ def org_position_er():
     f.path("M298 105 H326 V255 H350"); f.text(327, 180, "用户多角色", 6, "middle", rotate=90)
     f.arrow(464, 105, 464, 210); f.text(451, 181, "1 : N", 6)
     f.band(43, 321, 396, 22, "唯一规则：同一部门 + 职责 + 有效期内仅 1 名 PRIMARY；历史任期不覆盖，待办转移另记审计")
-    f.save("17-org-position-er")
+    f.save("18-org-position-er")
 
 
 def business_er():
@@ -147,7 +147,7 @@ def business_er():
     f.text(74, 160, "1 : 0..1", 6); f.text(249, 160, "1 : 0..1", 6); f.text(424, 160, "1 : 0..1", 6)
     f.arrow(66, 250, 66, 292); f.path("M66 250 V270 H186 V292"); f.arrow(416, 250, 416, 292); f.path("M416 250 V270 H306 V292")
     f.text(241, 392, "提交校验：type 与详情表匹配 ｜ 金额由明细重算 ｜ source 仅允许本人已批准采购/差旅 ｜ 已提交记录不级联删除", 6.7, "middle", INK, 700)
-    f.save("18-business-er")
+    f.save("19-business-er")
 
 
 def workflow_evidence_er():
@@ -174,7 +174,7 @@ def workflow_evidence_er():
     f.path("M68 152 V187 H304 V225"); f.text(258,180,"1:N 状态事件",6)
     f.path("M422 152 V188 H422 V225", dash="4 3"); f.text(410,190,"管理操作",6,"middle",rotate=90)
     f.band(48, 348, 386, 30, "保留策略：申请 / 节点 / 日志 / 通知 / 审计追加保留；附件先解除草稿绑定并延迟清理，不暴露物理路径")
-    f.save("19-workflow-evidence-er")
+    f.save("20-workflow-evidence-er")
 
 
 def main():

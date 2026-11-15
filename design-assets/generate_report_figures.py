@@ -232,7 +232,7 @@ def snapshot_design():
     f.card(182, 262, 118, 64, "申请实例快照", ("节点顺序固定", "规则与人员固定"), accent=True)
     f.card(319, 270, 118, 48, "后续模板 v4", ("只影响新申请",))
     f.arrow(163, 294, 182, 294); f.line(319, 294, 300, 294, "#94A3B8", 1.2, "4 3")
-    f.save("07-snapshot-design")
+    f.save("13-snapshot-design")
 
 
 def approval_state():
@@ -248,7 +248,7 @@ def approval_state():
     f.arrow(376, 140, 401, 140)
     f.path("M376 207 H388 V140 H401", dash="4 3")
     f.band(54, 246, 374, 28, "FOR UPDATE + 状态条件 + 请求幂等键：重复审批或并发撤回最多一方成功")
-    f.save("08-approval-state")
+    f.save("14-approval-state")
 
 
 def template_lifecycle():
@@ -264,7 +264,7 @@ def template_lifecycle():
     f.card(312, 176, 100, 52, "停用模板", ("不接收新申请",), fill=PALE, stroke=BORDER)
     f.path("M323 124 V150 H120 V176"); f.path("M413 124 V150 H241 V176"); f.path("M451 124 V160 H362 V176")
     f.band(85, 253, 312, 24, "实例始终保存发布版本与实际审批路径快照")
-    f.save("09-template-lifecycle")
+    f.save("15-template-lifecycle")
 
 
 def reimbursement_flow():
@@ -279,7 +279,7 @@ def reimbursement_flow():
     f.card(378, 132, 89, 54, "财务审核", ("突出无票例外",))
     f.path("M357 105 H368 V85 H378"); f.path("M422 112 V132")
     f.band(97, 224, 288, 30, "附件预览 / 下载：先校验当前用户对所属报销单的访问权限")
-    f.save("10-reimbursement-flow")
+    f.save("16-reimbursement-flow")
 
 
 def er_model():
@@ -321,7 +321,7 @@ def er_model():
     f.line(348, 108, 363, 108); f.line(363, 108, 363, 291)
     for yy in [169, 230, 291]: f.arrow(363, yy, 378, yy)
     f.band(84, 397, 314, 24, "删除策略：已引用实体停用或软删除；申请、审批日志与审计记录追加保留")
-    f.save("11-mysql-er-model")
+    f.save("17-mysql-er-model")
 
 
 def architecture():
@@ -341,7 +341,7 @@ def architecture():
     f.card(179, 246, 124, 54, "MySQL 8 / InnoDB", ("事务 · 外键 · 唯一约束",), accent=True)
     f.card(333, 252, 124, 42, "Docker Compose", ("应用 · 数据库 · 持久卷",))
     f.arrow(87, 252, 87, 229); f.arrow(241, 246, 241, 229); f.arrow(395, 252, 395, 229)
-    f.save("12-technical-architecture")
+    f.save("21-technical-architecture")
 
 
 def test_pyramid():
@@ -356,7 +356,7 @@ def test_pyramid():
     f.text(241, 127, "端到端测试", 9.5, "middle", weight=700); f.text(241, 139, "提交 → 多角色审批 → 终态 → 查询", 7, "middle")
     f.text(241, 80, "部署验收", 9, "middle", "#FFFFFF", 700); f.text(241, 92, "Compose · 迁移 · 重启持久化", 6.5, "middle", "#FFFFFF")
     f.text(241, 268, "重点证据：越权拒绝 ｜ 重复审批仅一次生效 ｜ 服务重启后记录仍可查询", 7.5, "middle")
-    f.save("13-test-pyramid")
+    f.save("23-test-pyramid")
 
 
 def main():

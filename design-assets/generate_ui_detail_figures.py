@@ -51,7 +51,7 @@ def identity_pages():
     f.rect(342, 307, 114, 22, "#FFFFFF", "#93C5FD", 4, 0.7)
     f.text(399, 322, "查看身份申请历史", 6.8, "middle", BLUE, 700)
     f.text(241, 372, "服务端规则：username / email 唯一 ｜ 密码哈希 ｜ 高权限字段一律忽略 ｜ 授权变更写审计", 7, "middle", INK, 700)
-    f.save("20-identity-pages-prototype")
+    f.save("10-identity-pages-prototype")
 
 
 def reimbursement_page():
@@ -87,7 +87,7 @@ def reimbursement_page():
     f.rect(340, 335, 48, 22, "#FFFFFF", "#93C5FD", 4, 0.7); f.text(364,350,"保存草稿",6.5,"middle",BLUE)
     f.rect(394, 335, 48, 22, BLUE, BLUE_DARK, 4, 0.7); f.text(418,350,"提交审批",6.5,"middle","#FFFFFF")
     f.text(241, 410, "提交时服务端重验：关联申请归属与终态 ｜ 明细金额 > 0 ｜ 票据不重复 ｜ 合计重新计算 ｜ 附件访问权", 6.8, "middle", INK, 700)
-    f.save("21-reimbursement-form-prototype")
+    f.save("11-reimbursement-form-prototype")
 
 
 def responsive_approval():
@@ -127,7 +127,7 @@ def responsive_approval():
     f.rect(348, 336, 50, 25, PALE_RED, "#E3A1A1", 5, 0.7); f.text(373,352,"驳回",6.5,"middle","#B42318")
     f.rect(406, 336, 50, 25, BLUE, BLUE_DARK, 5, 0.7); f.text(431,352,"批准",6.5,"middle","#FFFFFF")
     f.text(241, 396, "小屏：表格转卡片 ｜ 正文不横向滚动 ｜ 主要按钮 ≥ 44px 触控区 ｜ 附件与历史按需展开", 6.8, "middle", INK, 700)
-    f.save("22-responsive-approval-prototype")
+    f.save("12-responsive-approval-prototype")
 
 
 def vertical_map(f, x, labels, fills):
@@ -151,7 +151,7 @@ def traceability_map():
         f.text(x + 47, 48, title, 7.5, "middle", weight=700)
         vertical_map(f, x, labels, fills)
     f.text(241, 371, "统一原则：Controller 不直接改表 ｜ ctx.userId 来自会话 ｜ 写操作有事务/幂等 ｜ 查询先限定授权范围", 6.8, "middle", INK, 700)
-    f.save("23-page-api-data-traceability")
+    f.save("22-page-api-data-traceability")
 
 
 def main():
