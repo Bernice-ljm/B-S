@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="134.73mm" viewBox="0 0 482 382" role="img">
+<title>身份入口原型：注册、待确认与个人信息</title>
+<rect x="0" y="0" width="482" height="382" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">身份入口原型：注册、待确认与个人信息</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">权限申请与普通资料编辑分开，客户端不能自授部门负责人、财务或管理员</text>
+<rect x="12" y="52" width="142" height="296" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="26" y="74" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">注册账号</text>
+<text x="26" y="89" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#64748B">填写资料并申请加入部门</text>
+<text x="26" y="105" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">用户名 *</text>
+<rect x="26" y="111" width="114" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="33" y="126" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">bernice_ljm</text>
+<text x="26" y="146" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">姓名 *</text>
+<rect x="26" y="152" width="114" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="33" y="167" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">林同学</text>
+<text x="26" y="187" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">邮箱 *</text>
+<rect x="26" y="193" width="114" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="33" y="208" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">student@zju.edu.cn</text>
+<text x="26" y="228" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">密码 *</text>
+<rect x="26" y="234" width="114" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="33" y="249" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">至少 8 个字符</text>
+<text x="26" y="269" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">申请加入部门 *</text>
+<rect x="26" y="275" width="114" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="33" y="290" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">研发部　⌄</text>
+<rect x="26" y="316" width="114" height="22" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="83" y="331" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#FFFFFF">提交注册申请</text>
+<rect x="170" y="52" width="142" height="296" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="184" y="74" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">身份确认进度</text>
+<rect x="184" y="96" width="114" height="42" rx="4" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.7"/>
+<text x="241" y="114" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.3" font-weight="700" fill="#1F2937">注册信息已提交</text>
+<text x="241" y="128" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#1F2937">账号处于待确认状态</text>
+<line x1="199" y1="164" x2="199" y2="267" stroke="#CBD5E1" stroke-width="1.4"/>
+<circle cx="199" cy="166" r="8" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="199" y="168.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#FFFFFF">✓</text>
+<text x="215" y="164" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">提交申请</text>
+<text x="215" y="178" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#64748B">11-15 09:10</text>
+<circle cx="199" cy="215" r="8" fill="#2563EB" stroke="none" stroke-width="0"/>
+<text x="199" y="217.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#FFFFFF">●</text>
+<text x="215" y="213" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">管理员确认部门</text>
+<text x="215" y="227" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#64748B">当前阶段</text>
+<circle cx="199" cy="264" r="8" fill="#CBD5E1" stroke="none" stroke-width="0"/>
+<text x="199" y="266.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6" font-weight="400" fill="#FFFFFF">○</text>
+<text x="215" y="262" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">普通员工身份生效</text>
+<text x="215" y="276" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#64748B">等待处理</text>
+<text x="184" y="310" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#B42318">待确认期间不可发起业务或申请高权限角色</text>
+<rect x="328" y="52" width="142" height="296" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="342" y="74" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">个人信息与角色</text>
+<circle cx="399" cy="105" r="18" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.8"/>
+<text x="399" y="109" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#2563EB">林</text>
+<text x="399" y="137" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.4" font-weight="700" fill="#1F2937">林同学 · 研发部</text>
+<text x="342" y="163" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#64748B">正式角色</text>
+<rect x="342" y="172" width="53" height="19" rx="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.6"/>
+<text x="368.5" y="185" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">普通员工</text>
+<text x="342" y="216" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#64748B">可自行维护</text>
+<text x="348" y="234" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">姓名 · 邮箱 · 密码</text>
+<text x="342" y="263" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#64748B">需独立申请 / 管理员授予</text>
+<text x="348" y="281" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">转部门 · 业务角色</text>
+<rect x="342" y="307" width="114" height="22" rx="4" fill="#FFFFFF" stroke="#93C5FD" stroke-width="0.7"/>
+<text x="399" y="322" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#2563EB">查看身份申请历史</text>
+<text x="241" y="372" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">服务端规则：username / email 唯一 ｜ 密码哈希 ｜ 高权限字段一律忽略 ｜ 授权变更写审计</text>
+</svg>

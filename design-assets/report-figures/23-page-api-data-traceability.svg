@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="135.08mm" viewBox="0 0 482 383" role="img">
+<title>实现关联：页面动作如何落到接口、服务与数据证据</title>
+<rect x="0" y="0" width="482" height="383" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">实现关联：页面动作如何落到接口、服务与数据证据</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">用四条代表性链路展示前端、应用服务、事务与持久化之间的内在联系</text>
+<text x="57" y="48" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">申请提交</text>
+<rect x="10" y="63" width="94" height="38" rx="4" fill="#EFF6FF" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="57" y="86" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">表单 / 草稿</text>
+<line x1="57" y1="101" x2="57" y2="120" stroke="#475569" stroke-width="1.6"/>
+<path d="M53 120 L57 126 L61 120 Z" fill="#475569" stroke="none"/>
+<rect x="10" y="126" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="57" y="149" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">POST .../submit</text>
+<line x1="57" y1="164" x2="57" y2="183" stroke="#475569" stroke-width="1.6"/>
+<path d="M53 183 L57 189 L61 183 Z" fill="#475569" stroke="none"/>
+<rect x="10" y="189" width="94" height="38" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="57" y="212" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#FFFFFF">ApplicationService</text>
+<line x1="57" y1="227" x2="57" y2="246" stroke="#475569" stroke-width="1.6"/>
+<path d="M53 246 L57 252 L61 246 Z" fill="#475569" stroke="none"/>
+<rect x="10" y="252" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="57" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">APPLICATION + INSTANCE</text>
+<line x1="57" y1="290" x2="57" y2="309" stroke="#475569" stroke-width="1.6"/>
+<path d="M53 309 L57 315 L61 309 Z" fill="#475569" stroke="none"/>
+<rect x="10" y="315" width="94" height="38" rx="4" fill="#ECFDF5" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="57" y="338" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">日志 + 首待办 + 通知</text>
+<text x="176" y="48" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">审批动作</text>
+<rect x="129" y="63" width="94" height="38" rx="4" fill="#EFF6FF" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="176" y="86" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">审批详情</text>
+<line x1="176" y1="101" x2="176" y2="120" stroke="#475569" stroke-width="1.6"/>
+<path d="M172 120 L176 126 L180 120 Z" fill="#475569" stroke="none"/>
+<rect x="129" y="126" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="176" y="149" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">POST .../actions</text>
+<line x1="176" y1="164" x2="176" y2="183" stroke="#475569" stroke-width="1.6"/>
+<path d="M172 183 L176 189 L180 183 Z" fill="#475569" stroke="none"/>
+<rect x="129" y="189" width="94" height="38" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="176" y="212" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#FFFFFF">WorkflowRuntime</text>
+<line x1="176" y1="227" x2="176" y2="246" stroke="#475569" stroke-width="1.6"/>
+<path d="M172 246 L176 252 L180 246 Z" fill="#475569" stroke="none"/>
+<rect x="129" y="252" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="176" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">NODE + APPROVAL_LOG</text>
+<line x1="176" y1="290" x2="176" y2="309" stroke="#475569" stroke-width="1.6"/>
+<path d="M172 309 L176 315 L180 309 Z" fill="#475569" stroke="none"/>
+<rect x="129" y="315" width="94" height="38" rx="4" fill="#ECFDF5" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="176" y="338" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">下一节点 / 终态通知</text>
+<text x="295" y="48" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">附件下载</text>
+<rect x="248" y="63" width="94" height="38" rx="4" fill="#EFF6FF" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="295" y="86" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">票据预览</text>
+<line x1="295" y1="101" x2="295" y2="120" stroke="#475569" stroke-width="1.6"/>
+<path d="M291 120 L295 126 L299 120 Z" fill="#475569" stroke="none"/>
+<rect x="248" y="126" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="295" y="149" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">GET .../content</text>
+<line x1="295" y1="164" x2="295" y2="183" stroke="#475569" stroke-width="1.6"/>
+<path d="M291 183 L295 189 L299 183 Z" fill="#475569" stroke="none"/>
+<rect x="248" y="189" width="94" height="38" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="295" y="212" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#FFFFFF">AttachmentService</text>
+<line x1="295" y1="227" x2="295" y2="246" stroke="#475569" stroke-width="1.6"/>
+<path d="M291 246 L295 252 L299 246 Z" fill="#475569" stroke="none"/>
+<rect x="248" y="252" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="295" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">BIND → APPLICATION</text>
+<line x1="295" y1="290" x2="295" y2="309" stroke="#475569" stroke-width="1.6"/>
+<path d="M291 309 L295 315 L299 309 Z" fill="#475569" stroke="none"/>
+<rect x="248" y="315" width="94" height="38" rx="4" fill="#ECFDF5" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="295" y="338" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">鉴权后受控文件流</text>
+<text x="414" y="48" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">模板发布</text>
+<rect x="367" y="63" width="94" height="38" rx="4" fill="#EFF6FF" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="414" y="86" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">模板编辑器</text>
+<line x1="414" y1="101" x2="414" y2="120" stroke="#475569" stroke-width="1.6"/>
+<path d="M410 120 L414 126 L418 120 Z" fill="#475569" stroke="none"/>
+<rect x="367" y="126" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="414" y="149" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">POST .../publish</text>
+<line x1="414" y1="164" x2="414" y2="183" stroke="#475569" stroke-width="1.6"/>
+<path d="M410 183 L414 189 L418 183 Z" fill="#475569" stroke="none"/>
+<rect x="367" y="189" width="94" height="38" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.8"/>
+<text x="414" y="212" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#FFFFFF">TemplateService</text>
+<line x1="414" y1="227" x2="414" y2="246" stroke="#475569" stroke-width="1.6"/>
+<path d="M410 246 L414 252 L418 246 Z" fill="#475569" stroke="none"/>
+<rect x="367" y="252" width="94" height="38" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="414" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">TEMPLATE_VERSION</text>
+<line x1="414" y1="290" x2="414" y2="309" stroke="#475569" stroke-width="1.6"/>
+<path d="M410 309 L414 315 L418 309 Z" fill="#475569" stroke="none"/>
+<rect x="367" y="315" width="94" height="38" rx="4" fill="#ECFDF5" stroke="#94A3B8" stroke-width="0.8"/>
+<text x="414" y="338" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">审计 + 新申请可用</text>
+<text x="241" y="371" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">统一原则：Controller 不直接改表 ｜ ctx.userId 来自会话 ｜ 写操作有事务/幂等 ｜ 查询先限定授权范围</text>
+</svg>

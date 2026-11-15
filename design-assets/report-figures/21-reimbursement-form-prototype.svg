@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="148.13mm" viewBox="0 0 482 420" role="img">
+<title>报销填写原型：原申请、费用与票据同屏核对</title>
+<rect x="0" y="0" width="482" height="420" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">报销填写原型：原申请、费用与票据同屏核对</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">以结构化费用行驱动金额与票据规则，OCR 不作为基础依赖</text>
+<rect x="12" y="52" width="458" height="338" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="26" y="75" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#1F2937">新建报销申请</text>
+<rect x="410" y="61" width="42" height="18" rx="9" fill="#ECFDF5" stroke="#86C7A5" stroke-width="0.6"/>
+<text x="431" y="73" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#1F2937">草稿</text>
+<rect x="26" y="92" width="286" height="280" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="40" y="110" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">报销标题 *</text>
+<rect x="40" y="116" width="120" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="47" y="131" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">杭州项目差旅报销</text>
+<text x="174" y="110" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="700" fill="#1F2937">关联本人已批准申请</text>
+<rect x="174" y="116" width="124" height="22" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="181" y="131" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.6" font-weight="400" fill="#475569">TR-20261105-003　⌄</text>
+<rect x="40" y="157" width="258" height="43" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.7"/>
+<text x="50" y="174" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">杭州项目交流差旅 · 已批准</text>
+<text x="50" y="190" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">预算 ¥3,000　已报 ¥0　在审 ¥0　本次 ¥2,860</text>
+<text x="40" y="220" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">费用明细（至少 3 条）</text>
+<rect x="40" y="229" width="258" height="21" rx="2" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="46" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="700" fill="#1F2937">类型 / 日期</text>
+<text x="113" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="700" fill="#1F2937">用途</text>
+<text x="205" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="700" fill="#1F2937">金额</text>
+<text x="251" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="700" fill="#1F2937">票据</text>
+<line x1="40" y1="255" x2="298" y2="255" stroke="#E2E8F0" stroke-width="0.6"/>
+<text x="46" y="267" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">交通 11-05</text>
+<text x="113" y="267" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">往返高铁</text>
+<text x="205" y="267" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">¥800</text>
+<text x="251" y="267" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.5" font-weight="400" fill="#2563EB">高铁票.pdf</text>
+<line x1="40" y1="279" x2="298" y2="279" stroke="#E2E8F0" stroke-width="0.6"/>
+<text x="46" y="291" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">住宿 11-08</text>
+<text x="113" y="291" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">酒店住宿</text>
+<text x="205" y="291" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">¥1,600</text>
+<text x="251" y="291" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.5" font-weight="400" fill="#2563EB">发票.jpg</text>
+<line x1="40" y1="303" x2="298" y2="303" stroke="#E2E8F0" stroke-width="0.6"/>
+<text x="46" y="315" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">餐饮 11-08</text>
+<text x="113" y="315" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">出差餐费</text>
+<text x="205" y="315" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#1F2937">¥460</text>
+<text x="251" y="315" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.5" font-weight="400" fill="#2563EB">餐饮票.pdf</text>
+<text x="40" y="347" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#B42318">□ 无票例外（必须填写原因）</text>
+<text x="298" y="347" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">合计 ¥2,860</text>
+<rect x="326" y="92" width="130" height="280" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="340" y="113" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#1F2937">票据核对</text>
+<rect x="340" y="126" width="102" height="86" rx="3" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="391" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#1F2937">住宿发票.jpg</text>
+<text x="391" y="177" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">JPEG / 1.2MB</text>
+<text x="391" y="198" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#2563EB">点击受控预览</text>
+<text x="340" y="235" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">对应费用</text>
+<text x="442" y="235" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">住宿</text>
+<text x="340" y="261" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">申报金额</text>
+<text x="442" y="261" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">¥1,600</text>
+<text x="340" y="287" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">上传人</text>
+<text x="442" y="287" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">林同学</text>
+<text x="340" y="313" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">上传时间</text>
+<text x="442" y="313" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">11-15 09:22</text>
+<rect x="340" y="335" width="48" height="22" rx="4" fill="#FFFFFF" stroke="#93C5FD" stroke-width="0.7"/>
+<text x="364" y="350" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#2563EB">保存草稿</text>
+<rect x="394" y="335" width="48" height="22" rx="4" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.7"/>
+<text x="418" y="350" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#FFFFFF">提交审批</text>
+<text x="241" y="410" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">提交时服务端重验：关联申请归属与终态 ｜ 明细金额 &gt; 0 ｜ 票据不重复 ｜ 合计重新计算 ｜ 附件访问权</text>
+</svg>

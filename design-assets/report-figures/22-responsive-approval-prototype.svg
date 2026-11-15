@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="142.84mm" viewBox="0 0 482 405" role="img">
+<title>响应式审批原型：桌面核对与手机触控</title>
+<rect x="0" y="0" width="482" height="405" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F2937">响应式审批原型：桌面核对与手机触控</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#1F2937">同一 Web 功能按屏幕重排；响应式页面不冒充独立 App / 小程序提分项</text>
+<rect x="12" y="52" width="300" height="319" rx="5" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="26" y="74" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#1F2937">桌面端 · 报销审批详情</text>
+<text x="26" y="91" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#64748B">BX-20261110-001 · 林同学 / 研发部</text>
+<rect x="26" y="106" width="170" height="84" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="38" y="124" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">费用与票据</text>
+<text x="38" y="145" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#1F2937">交通　¥800　查看票据</text>
+<text x="38" y="162" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#1F2937">住宿　¥1,600　已展开 →</text>
+<text x="38" y="179" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#1F2937">餐饮　¥460　查看票据</text>
+<rect x="206" y="106" width="92" height="84" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.7"/>
+<text x="252" y="124" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#64748B">当前节点</text>
+<text x="252" y="143" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">财务审核</text>
+<text x="252" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#1F2937">张敏</text>
+<text x="252" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#1F2937">无票例外：0</text>
+<rect x="26" y="204" width="272" height="66" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="38" y="222" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#1F2937">审批历史</text>
+<text x="38" y="241" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#1F2937">✓ 申请人提交　09:20</text>
+<text x="38" y="258" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#1F2937">✓ 部门负责人通过　10:05　费用符合安排</text>
+<rect x="26" y="283" width="190" height="36" rx="3" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="36" y="305" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#64748B">审批意见（驳回必填）</text>
+<rect x="224" y="283" width="34" height="36" rx="3" fill="#FEF2F2" stroke="#E3A1A1" stroke-width="0.7"/>
+<text x="241" y="305" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#B42318">驳回</text>
+<rect x="264" y="283" width="34" height="36" rx="3" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.7"/>
+<text x="281" y="305" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#FFFFFF">批准</text>
+<text x="26" y="344" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#64748B">大屏：正文、历史、票据核对与操作同屏</text>
+<rect x="334" y="52" width="136" height="319" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2"/>
+<rect x="375" y="59" width="54" height="5" rx="3" fill="#CBD5E1" stroke="none" stroke-width="0"/>
+<text x="402" y="83" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#1F2937">报销审批</text>
+<text x="348" y="103" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.7" font-weight="700" fill="#1F2937">杭州项目交流差旅报销</text>
+<text x="348" y="119" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#2563EB">财务待审批 · ¥2,860</text>
+<rect x="348" y="136" width="108" height="28" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="356" y="154" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#1F2937">交通</text>
+<text x="448" y="154" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">¥800</text>
+<rect x="348" y="172" width="108" height="28" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="356" y="190" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#1F2937">住宿</text>
+<text x="448" y="190" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">¥1,600</text>
+<rect x="348" y="208" width="108" height="28" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="0.6"/>
+<text x="356" y="226" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="400" fill="#1F2937">餐饮</text>
+<text x="448" y="226" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.3" font-weight="700" fill="#1F2937">¥460</text>
+<rect x="348" y="252" width="108" height="39" rx="4" fill="#EFF6FF" stroke="#93C5FD" stroke-width="0.6"/>
+<text x="356" y="268" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="700" fill="#1F2937">当前：财务审核 / 张敏</text>
+<text x="356" y="282" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.8" font-weight="400" fill="#1F2937">完整历史与票据按需展开</text>
+<rect x="348" y="301" width="108" height="26" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.7"/>
+<text x="356" y="318" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.1" font-weight="400" fill="#64748B">审批意见</text>
+<rect x="348" y="336" width="50" height="25" rx="5" fill="#FEF2F2" stroke="#E3A1A1" stroke-width="0.7"/>
+<text x="373" y="352" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#B42318">驳回</text>
+<rect x="406" y="336" width="50" height="25" rx="5" fill="#2563EB" stroke="#1D4ED8" stroke-width="0.7"/>
+<text x="431" y="352" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#FFFFFF">批准</text>
+<text x="241" y="396" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#1F2937">小屏：表格转卡片 ｜ 正文不横向滚动 ｜ 主要按钮 ≥ 44px 触控区 ｜ 附件与历史按需展开</text>
+</svg>
