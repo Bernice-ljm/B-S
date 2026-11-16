@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: enterprise-approval-backend
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
+
+server:
+  error:
+    include-message: never
+    include-stacktrace: never
