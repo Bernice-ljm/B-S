@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="164.00mm" viewBox="0 0 482 465" role="img">
+<title>ER 图 C：流程运行、审批日志与通知</title>
+<rect width="482" height="465" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#243747">ER 图 C：流程运行、审批日志与通知</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.0" font-weight="400" fill="#667782">节点表示审批环节，任务表示个人待办；日志和幂等记录一一对应</text>
+<rect x="8" y="60" width="82" height="59.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="8" y="60" width="82" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="49.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">申请 APPLICATION</text>
+<text x="16" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">application_id</text>
+<line x1="16" y1="93.0" x2="58.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="16" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<text x="16" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">row_version</text>
+<rect x="138" y="60" width="82" height="59.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="138" y="60" width="82" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="179.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">流程实例 INSTANCE</text>
+<text x="146" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">instance_id</text>
+<line x1="146" y1="93.0" x2="179.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="146" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<text x="146" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">current_node_id</text>
+<rect x="268" y="60" width="82" height="70.0" rx="0" fill="#FFFFFF" stroke="#3473B3" stroke-width="1.1"/>
+<rect x="268" y="60" width="82" height="20" rx="0" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.85"/>
+<text x="309.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">流程节点 NODE</text>
+<text x="276" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">node_id</text>
+<line x1="276" y1="93.0" x2="297.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="276" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">sequence_no</text>
+<text x="276" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">approval_mode</text>
+<text x="276" y="122.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<rect x="398" y="60" width="76" height="70.0" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="398" y="60" width="76" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="436.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">个人任务 TASK</text>
+<text x="406" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">task_id</text>
+<line x1="406" y1="93.0" x2="427.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="406" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">assignee_id</text>
+<text x="406" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<text x="406" y="122.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">opinion</text>
+<polygon points="114,84.0 132.0,96 114,108.0 96.0,96" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="114" y="98.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">生成</text>
+<line x1="90" y1="96" x2="96" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="132" y1="96" x2="138" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<text x="90" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="138" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<polygon points="244,84.0 262.0,96 244,108.0 226.0,96" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="244" y="98.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">包含</text>
+<line x1="220" y1="96" x2="226" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="262" y1="96" x2="268" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<text x="220" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="268" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<polygon points="374,84.0 392.0,96 374,108.0 356.0,96" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="374" y="98.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">分配</text>
+<line x1="350" y1="96" x2="356" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="392" y1="96" x2="398" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<text x="350" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="398" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<rect x="8" y="254" width="98" height="80.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="8" y="254" width="98" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="57.0" y="267.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">幂等记录 IDEMPOTENCY</text>
+<text x="16" y="285.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">idempotency_id</text>
+<line x1="16" y1="287.0" x2="58.0" y2="287.0" stroke="#243747" stroke-width="0.55"/>
+<text x="16" y="295.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">actor_id</text>
+<text x="16" y="306.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">operation / key</text>
+<text x="16" y="316.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">request_hash</text>
+<text x="16" y="327.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">saved_result</text>
+<rect x="138" y="254" width="98" height="80.5" rx="0" fill="#FFFFFF" stroke="#3473B3" stroke-width="1.1"/>
+<rect x="138" y="254" width="98" height="20" rx="0" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.85"/>
+<text x="187.0" y="267.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">审批日志 APPROVAL_LOG</text>
+<text x="146" y="285.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">log_id</text>
+<line x1="146" y1="287.0" x2="164" y2="287.0" stroke="#243747" stroke-width="0.55"/>
+<text x="146" y="295.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">actor_id</text>
+<text x="146" y="306.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">action</text>
+<text x="146" y="316.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">result_status</text>
+<text x="146" y="327.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">created_at</text>
+<rect x="268" y="254" width="98" height="70.0" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="268" y="254" width="98" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="317.0" y="267.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">通知 NOTIFICATION</text>
+<text x="276" y="285.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">notification_id</text>
+<line x1="276" y1="287.0" x2="321.0" y2="287.0" stroke="#243747" stroke-width="0.55"/>
+<text x="276" y="295.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">recipient_id</text>
+<text x="276" y="306.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">event_key</text>
+<text x="276" y="316.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">read_at</text>
+<rect x="398" y="254" width="76" height="70.0" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="398" y="254" width="76" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="436.0" y="267.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">OUTBOX_EVENT</text>
+<text x="406" y="285.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">outbox_id</text>
+<line x1="406" y1="287.0" x2="433.0" y2="287.0" stroke="#243747" stroke-width="0.55"/>
+<text x="406" y="295.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">event_key</text>
+<text x="406" y="306.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<text x="406" y="316.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">attempt_count</text>
+<polygon points="122,288.0 135.0,300 122,312.0 109.0,300" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<polygon points="122,291.0 131.0,300 122,309.0 113.0,300" fill="none" stroke="#3473B3" stroke-width="0.65"/>
+<text x="122" y="302.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">对应</text>
+<line x1="106" y1="300" x2="109" y2="300" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="135" y1="300" x2="138" y2="300" stroke="#5E707C" stroke-width="0.95"/>
+<text x="110" y="247" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="134" y="247" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">0..1</text>
+<polygon points="187,191.0 211.0,205 187,219.0 163.0,205" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="187" y="207.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">产生日志</text>
+<path d="M436 126 L436 170 L187 170 L187 191" fill="none" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="187" y1="219" x2="187" y2="254" stroke="#5E707C" stroke-width="0.95"/>
+<text x="425" y="162" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="197" y="242" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">0..1</text>
+<polygon points="317,191.0 341.0,205 317,219.0 293.0,205" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="317" y="207.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">发送通知</text>
+<path d="M49 113 L49 154 L317 154 L317 181" fill="none" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="317" y1="229" x2="317" y2="254" stroke="#5E707C" stroke-width="0.95"/>
+<text x="59" y="146" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="327" y="244" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<polygon points="382,286.0 396.0,300 382,314.0 368.0,300" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="382" y="302.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">投递</text>
+<line x1="366" y1="300" x2="368" y2="300" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="396" y1="300" x2="398" y2="300" stroke="#5E707C" stroke-width="0.95"/>
+<text x="370" y="247" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="394" y="247" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">0..1</text>
+<rect x="150" y="398" width="74" height="35" rx="0" fill="#FFFFFF" stroke="#9EADB7" stroke-width="0.75"/>
+<text x="156" y="408" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">node_id</text>
+<text x="156" y="417" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">task_id</text>
+<text x="156" y="426" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">request_key</text>
+<line x1="187" y1="326" x2="187" y2="398" stroke="#9EADB7" stroke-width="0.7" stroke-dasharray="3 2"/>
+<rect x="32" y="435" width="418" height="24" rx="2" fill="#F4F7F9" stroke="#9EADB7" stroke-width="0.75"/>
+<text x="241" y="450" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.5" font-weight="400" fill="#667782">审批日志关联 application、node、task 和 idempotency_record；request_key 仅保留诊断副本。</text>
+</svg>

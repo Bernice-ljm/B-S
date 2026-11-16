@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="105.81mm" viewBox="0 0 482 300" role="img">
+<title>产品信息架构</title>
+<rect x="0" y="0" width="482" height="300" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">产品信息架构</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">普通工作区与管理入口分离，导航围绕任务与申请组织</text>
+<rect x="178" y="54" width="126" height="44" rx="5" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="1.1"/>
+<text x="241.0" y="77" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#FFFFFF">企业审批工作台</text>
+<line x1="241" y1="98" x2="241" y2="120" stroke="#667784" stroke-width="1.35"/>
+<line x1="45" y1="120" x2="437" y2="120" stroke="#667784" stroke-width="1.35"/>
+<line x1="21" y1="120" x2="21" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="4" y="137" width="72" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="40.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">工作台</text>
+<text x="40.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">统计摘要</text>
+<line x1="101" y1="120" x2="101" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="68" y="137" width="72" height="52" rx="5" fill="#EDF3E9" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="104.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">发起申请</text>
+<text x="104.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">三类 + 自定义</text>
+<line x1="181" y1="120" x2="181" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="148" y="137" width="72" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="184.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">我的申请</text>
+<text x="184.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">进度与历史</text>
+<line x1="261" y1="120" x2="261" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="228" y="137" width="72" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="264.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">我的待办</text>
+<text x="264.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">当前审批任务</text>
+<line x1="341" y1="120" x2="341" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="308" y="137" width="72" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="344.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">通知中心</text>
+<text x="344.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">未读与跳转</text>
+<line x1="421" y1="120" x2="421" y2="137" stroke="#667784" stroke-width="1.35"/>
+<rect x="388" y="137" width="72" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="424.0" y="160" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">管理入口</text>
+<text x="424.0" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">配置与审计</text>
+<line x1="421" y1="189" x2="421" y2="213" stroke="#667784" stroke-width="1.35"/>
+<line x1="335" y1="213" x2="457" y2="213" stroke="#667784" stroke-width="1.35"/>
+<line x1="335" y1="213" x2="335" y2="228" stroke="#667784" stroke-width="1.35"/>
+<rect x="307" y="228" width="56" height="42" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="335.0" y="251" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">用户/部门/角色</text>
+<line x1="396" y1="213" x2="396" y2="228" stroke="#667784" stroke-width="1.35"/>
+<rect x="368" y="228" width="56" height="42" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="396.0" y="251" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">模板/版本</text>
+<line x1="457" y1="213" x2="457" y2="228" stroke="#667784" stroke-width="1.35"/>
+<rect x="429" y="228" width="56" height="42" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="457.0" y="251" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">授权统计</text>
+</svg>

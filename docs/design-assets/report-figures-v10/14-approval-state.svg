@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="105.81mm" viewBox="0 0 482 300" role="img">
+<title>审批状态与并发控制</title>
+<rect x="0" y="0" width="482" height="300" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">审批状态与并发控制</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">状态转换由数据库事务串行判定，终态不可再次审批</text>
+<rect x="18" y="66" width="82" height="52" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="59.0" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">草稿</text>
+<text x="59.0" y="107" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">编辑 / 删除</text>
+<rect x="130" y="60" width="104" height="64" rx="5" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="1.1"/>
+<text x="182.0" y="83" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#FFFFFF">审批中</text>
+<text x="182.0" y="101" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">当前节点批准</text>
+<text x="182.0" y="114" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">驳回或申请人撤回</text>
+<line x1="100" y1="92" x2="124" y2="92" stroke="#667784" stroke-width="1.6"/>
+<path d="M124 88 L130 92 L124 96 Z" fill="#667784" stroke="none"/>
+<text x="115" y="84" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">提交</text>
+<rect x="286" y="48" width="90" height="50" rx="5" fill="#FBF6DE" stroke="#D9AE2C" stroke-width="1.1"/>
+<text x="331.0" y="71" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">已通过</text>
+<text x="331.0" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">全部节点批准</text>
+<rect x="286" y="115" width="90" height="50" rx="5" fill="#FCF1E3" stroke="#D88C27" stroke-width="1.1"/>
+<text x="331.0" y="138" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">已驳回</text>
+<text x="331.0" y="156" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">理由必填</text>
+<rect x="286" y="182" width="90" height="50" rx="5" fill="#EDF3E9" stroke="#64894D" stroke-width="1.1"/>
+<text x="331.0" y="205" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">已撤回</text>
+<text x="331.0" y="223" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">待办失效</text>
+<path d="M234 78 H260 V73 H286" fill="none" stroke="#667784" stroke-width="1.35"/>
+<path d="M234 92 H260 V140 H286" fill="none" stroke="#667784" stroke-width="1.35"/>
+<path d="M234 106 H250 V207 H286" fill="none" stroke="#667784" stroke-width="1.35"/>
+<rect x="401" y="115" width="66" height="50" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="434.0" y="138" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">新申请</text>
+<text x="434.0" y="156" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">关联原单</text>
+<line x1="376" y1="140" x2="395" y2="140" stroke="#667784" stroke-width="1.6"/>
+<path d="M395 136 L401 140 L395 144 Z" fill="#667784" stroke="none"/>
+<path d="M376 207 H388 V140 H401" fill="none" stroke="#667784" stroke-width="1.35" stroke-dasharray="4 3"/>
+<rect x="54" y="246" width="374" height="28" rx="4" fill="#EDF3E9" stroke="#64894D" stroke-width="1"/>
+<text x="241.0" y="262.8" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">FOR UPDATE + 状态条件 + 请求幂等键：重复审批或并发撤回最多一方成功</text>
+</svg>

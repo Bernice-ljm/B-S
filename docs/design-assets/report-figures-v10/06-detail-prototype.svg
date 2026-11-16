@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="112.86mm" viewBox="0 0 482 320" role="img">
+<title>界面原型：申请详情与审批</title>
+<rect x="0" y="0" width="482" height="320" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">界面原型：申请详情与审批</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">业务正文、附件和审批时间线同屏，操作区只对当前审批人开放</text>
+<rect x="16" y="52" width="450" height="244" rx="5" fill="#FFFFFF" stroke="#BCC7CF" stroke-width="1.2"/>
+<text x="30" y="75" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="10" font-weight="700" fill="#243747">采购申请 PR-2026-000123</text>
+<rect x="185" y="61" width="42" height="18" rx="9" fill="#EDF3E9" stroke="#64894D" stroke-width="0.8"/>
+<text x="206" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#2C6AA5">审批中</text>
+<text x="450" y="74" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">当前：王某（部门负责人）</text>
+<line x1="30" y1="88" x2="452" y2="88" stroke="#D7DEE3" stroke-width="0.8"/>
+<rect x="30" y="103" width="188" height="170" rx="4" fill="#F8FAFB" stroke="#D7DEE3" stroke-width="0.8"/>
+<text x="44" y="123" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#243747">业务内容</text>
+<text x="44" y="147" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">申请人：李某　研发部</text>
+<text x="44" y="171" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">采购总额：¥12,800.00</text>
+<text x="44" y="195" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">采购明细：显示多行结构</text>
+<text x="44" y="219" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">报价比较：供应商 A / B</text>
+<text x="44" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">附件：报价单.pdf　截图.png</text>
+<rect x="236" y="103" width="216" height="170" rx="4" fill="#FFFFFF" stroke="#D7DEE3" stroke-width="0.8"/>
+<text x="250" y="123" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#243747">审批进度</text>
+<line x1="262" y1="145" x2="262" y2="232" stroke="#D7DEE3" stroke-width="1"/>
+<circle cx="262" cy="145" r="4" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="278" y="147" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.8" font-weight="700" fill="#243747">已提交</text>
+<text x="345" y="147" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">李某　09:10</text>
+<circle cx="262" cy="174" r="4" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="278" y="176" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.8" font-weight="700" fill="#243747">部门审核</text>
+<text x="345" y="176" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">王某　处理中</text>
+<circle cx="262" cy="203" r="4" fill="#BCC7CF" stroke="none" stroke-width="0"/>
+<text x="278" y="205" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.8" font-weight="700" fill="#243747">财务审核</text>
+<text x="345" y="205" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">等待前序节点</text>
+<circle cx="262" cy="232" r="4" fill="#BCC7CF" stroke="none" stroke-width="0"/>
+<text x="278" y="234" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.8" font-weight="700" fill="#243747">负责人审批</text>
+<text x="345" y="234" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">等待前序节点</text>
+<rect x="250" y="246" width="126" height="18" rx="3" fill="#FFFFFF" stroke="#D7DEE3" stroke-width="0.8"/>
+<text x="257" y="258.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#667784">审批意见</text>
+<rect x="386" y="246" width="26" height="18" rx="3" fill="#FCF1E3" stroke="#D88C27" stroke-width="0.8"/>
+<text x="399" y="258.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#D88C27">驳回</text>
+<rect x="418" y="246" width="26" height="18" rx="3" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="0.8"/>
+<text x="431" y="258.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#FFFFFF">批准</text>
+</svg>

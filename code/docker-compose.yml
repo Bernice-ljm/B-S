@@ -1,0 +1,66 @@
+name: enterprise-approval
+
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD:?MYSQL_ROOT_PASSWORD must be set}"
+      MYSQL_DATABASE: "${MYSQL_DATABASE:-enterprise_approval}"
+      MYSQL_USER: "${MYSQL_USER:-approval_app}"
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD:?MYSQL_PASSWORD must be set}"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+      - --default-time-zone=+08:00
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "MYSQL_PWD=$${MYSQL_ROOT_PASSWORD} mysqladmin ping -h 127.0.0.1 -uroot --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - approval-internal
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      TZ: Asia/Shanghai
+      SERVER_PORT: 8080
+      DB_URL: "jdbc:mysql://mysql:3306/${MYSQL_DATABASE:-enterprise_approval}?useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_0900_ai_ci&connectionTimeZone=Asia/Shanghai&forceConnectionTimeZoneToSession=true&useSSL=false&allowPublicKeyRetrieval=true"
+      DB_USERNAME: "${MYSQL_USER:-approval_app}"
+      DB_PASSWORD: "${MYSQL_PASSWORD:?MYSQL_PASSWORD must be set}"
+      ATTACHMENT_STORAGE_PATH: /var/lib/approval/attachments
+      DB_POOL_MIN_IDLE: "${DB_POOL_MIN_IDLE:-2}"
+      DB_POOL_MAX_SIZE: "${DB_POOL_MAX_SIZE:-10}"
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    volumes:
+      - attachment-volume:/var/lib/approval/attachments
+    tmpfs:
+      - /tmp
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1:8080/actuator/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - approval-internal
+
+volumes:
+  mysql-data:
+  attachment-volume:
+
+networks:
+  approval-internal:
+    driver: bridge

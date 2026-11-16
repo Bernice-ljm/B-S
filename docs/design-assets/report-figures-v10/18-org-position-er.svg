@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="128.73mm" viewBox="0 0 482 365" role="img">
+<title>ER 图 A：组织、角色与审批岗位</title>
+<rect width="482" height="365" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#243747">ER 图 A：组织、角色与审批岗位</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.0" font-weight="400" fill="#667782">多对多联系的属性附着在联系菱形上，关系表在数据字典中展开</text>
+<rect x="15" y="60" width="100" height="59.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="15" y="60" width="100" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="65.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">部门 DEPARTMENT</text>
+<text x="23" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">department_id</text>
+<line x1="23" y1="93.0" x2="62.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="23" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">name</text>
+<text x="23" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<rect x="191" y="60" width="100" height="70.0" rx="0" fill="#FFFFFF" stroke="#3473B3" stroke-width="1.1"/>
+<rect x="191" y="60" width="100" height="20" rx="0" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.85"/>
+<text x="241.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">用户 USER</text>
+<text x="199" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">user_id</text>
+<line x1="199" y1="93.0" x2="220.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="199" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">username</text>
+<text x="199" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">email</text>
+<text x="199" y="122.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<rect x="367" y="60" width="100" height="59.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="367" y="60" width="100" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="417.0" y="73.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">角色 ROLE</text>
+<text x="375" y="91.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">role_id</text>
+<line x1="375" y1="93.0" x2="396.0" y2="93.0" stroke="#243747" stroke-width="0.55"/>
+<text x="375" y="101.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">role_key</text>
+<text x="375" y="112.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">name</text>
+<rect x="15" y="235" width="100" height="80.5" rx="0" fill="#FFFFFF" stroke="#5E707C" stroke-width="0.9"/>
+<rect x="15" y="235" width="100" height="20" rx="0" fill="#EDF3E9" stroke="#5E707C" stroke-width="0.85"/>
+<text x="65.0" y="248.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="700" fill="#243747">审批岗位 POSITION</text>
+<text x="23" y="266.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">position_id</text>
+<line x1="23" y1="268.0" x2="56.0" y2="268.0" stroke="#243747" stroke-width="0.55"/>
+<text x="23" y="276.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">duty_key</text>
+<text x="23" y="287.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">effective_from</text>
+<text x="23" y="297.5" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">effective_to</text>
+<text x="23" y="308.0" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.35" font-weight="400" fill="#243747">status</text>
+<polygon points="153,82.0 173.0,96 153,110.0 133.0,96" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="153" y="98.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">隶属</text>
+<line x1="115" y1="96" x2="133" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="173" y1="96" x2="191" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<text x="123" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="183" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<polygon points="329,82.0 353.0,96 329,110.0 305.0,96" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="329" y="98.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">拥有角色</text>
+<line x1="291" y1="96" x2="305" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="353" y1="96" x2="367" y2="96" stroke="#5E707C" stroke-width="0.95"/>
+<text x="300" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<text x="358" y="89" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<polygon points="65,174.0 86.0,188 65,202.0 44.0,188" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="65" y="190.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">设置</text>
+<line x1="65" y1="102" x2="65" y2="174" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="65" y1="202" x2="65" y2="235" stroke="#5E707C" stroke-width="0.95"/>
+<text x="75" y="124" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">1</text>
+<text x="75" y="226" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<polygon points="241,246.0 263.0,260 241,274.0 219.0,260" fill="#EAF1F8" stroke="#3473B3" stroke-width="0.95"/>
+<text x="241" y="262.2" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">任职</text>
+<path d="M241 123 L241 246" fill="none" stroke="#5E707C" stroke-width="0.95"/>
+<line x1="115" y1="260" x2="219" y2="260" stroke="#5E707C" stroke-width="0.95"/>
+<text x="251" y="140" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<text x="126" y="253" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.2" font-weight="700" fill="#243747">N</text>
+<rect x="204" y="302" width="74" height="35" rx="0" fill="#FFFFFF" stroke="#9EADB7" stroke-width="0.75"/>
+<text x="210" y="312" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">assignment_type</text>
+<text x="210" y="321" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">assigned_at</text>
+<text x="210" y="330" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">ended_at</text>
+<line x1="241" y1="274" x2="241" y2="302" stroke="#9EADB7" stroke-width="0.7" stroke-dasharray="3 2"/>
+<rect x="292" y="142" width="74" height="26" rx="0" fill="#FFFFFF" stroke="#9EADB7" stroke-width="0.75"/>
+<text x="298" y="152" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">granted_at</text>
+<text x="298" y="161" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="4.9" font-weight="400" fill="#243747">granted_by</text>
+<line x1="329" y1="110" x2="329" y2="142" stroke="#9EADB7" stroke-width="0.7" stroke-dasharray="3 2"/>
+<rect x="32" y="337" width="418" height="24" rx="2" fill="#F4F7F9" stroke="#9EADB7" stroke-width="0.75"/>
+<text x="241" y="352" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.5" font-weight="400" fill="#667782">USER_ROLE 和 POSITION_ASSIGNMENT 是多对多联系映射后的关系表；历史任期不覆盖。</text>
+</svg>

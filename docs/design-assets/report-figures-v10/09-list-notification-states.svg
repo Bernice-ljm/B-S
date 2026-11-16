@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="151.66mm" viewBox="0 0 482 430" role="img">
+<title>列表、统计、通知与交互状态</title>
+<rect x="0" y="0" width="482" height="430" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">列表、统计、通知与交互状态</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">基础功能不仅有正常页面，还要覆盖筛选分页、持久通知和失败反馈</text>
+<rect x="14" y="54" width="292" height="280" rx="5" fill="#FFFFFF" stroke="#BCC7CF" stroke-width="1"/>
+<text x="28" y="76" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#243747">我的申请</text>
+<rect x="28" y="88" width="62" height="20" rx="3" fill="#F8FAFB" stroke="#D7DEE3" stroke-width="0.6"/>
+<text x="59.0" y="101.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#243747">类型：全部</text>
+<rect x="96" y="88" width="62" height="20" rx="3" fill="#F8FAFB" stroke="#D7DEE3" stroke-width="0.6"/>
+<text x="127.0" y="101.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#243747">状态：审批中</text>
+<rect x="164" y="88" width="82" height="20" rx="3" fill="#F8FAFB" stroke="#D7DEE3" stroke-width="0.6"/>
+<text x="205.0" y="101.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#243747">时间：本月</text>
+<rect x="252" y="88" width="42" height="20" rx="3" fill="#F8FAFB" stroke="#D7DEE3" stroke-width="0.6"/>
+<text x="273.0" y="101.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.4" font-weight="400" fill="#243747">搜索</text>
+<rect x="28" y="120" width="266" height="102" rx="3" fill="#FFFFFF" stroke="#D7DEE3" stroke-width="0.7"/>
+<text x="40" y="142" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">PR-2026-018</text>
+<text x="126" y="142" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">采购设备</text>
+<text x="264" y="142" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#2C6AA5">审批中</text>
+<line x1="28" y1="155" x2="294" y2="155" stroke="#D9D7D3" stroke-width="0.7"/>
+<text x="40" y="171" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">TR-2026-011</text>
+<text x="126" y="171" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">上海差旅</text>
+<text x="264" y="171" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#2C6AA5">已通过</text>
+<line x1="28" y1="184" x2="294" y2="184" stroke="#D9D7D3" stroke-width="0.7"/>
+<text x="40" y="200" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">BX-2026-009</text>
+<text x="126" y="200" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">差旅报销</text>
+<text x="264" y="200" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#D88C27">已驳回</text>
+<text x="28" y="243" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#667784">共 27 条　每页 10 条</text>
+<text x="280" y="243" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="400" fill="#243747">‹  1  2  3  ›</text>
+<text x="28" y="267" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#243747">统计口径：本月提交且最终通过</text>
+<text x="28" y="286" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#243747">采购  ¥42k</text>
+<rect x="94" y="277" width="152" height="8" rx="2" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="28" y="303" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#243747">差旅  ¥18k</text>
+<rect x="94" y="294" width="65" height="8" rx="2" fill="#64894D" stroke="none" stroke-width="0"/>
+<text x="28" y="320" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="5.9" font-weight="400" fill="#243747">报销  ¥31k</text>
+<rect x="94" y="311" width="112" height="8" rx="2" fill="#64894D" stroke="none" stroke-width="0"/>
+<rect x="322" y="54" width="146" height="280" rx="5" fill="#FFFFFF" stroke="#BCC7CF" stroke-width="1"/>
+<text x="336" y="76" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#243747">通知中心</text>
+<text x="454" y="76" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.8" font-weight="700" fill="#2C6AA5">未读 3</text>
+<circle cx="338" cy="98" r="3" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="348" y="96" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#243747">新的采购待办</text>
+<text x="348" y="111" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#667784">刚刚 · 点击进入详情</text>
+<line x1="336" y1="123" x2="454" y2="123" stroke="#D9D7D3" stroke-width="0.6"/>
+<circle cx="338" cy="148" r="3" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="348" y="146" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#243747">差旅申请已通过</text>
+<text x="348" y="161" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#667784">10 分钟前</text>
+<line x1="336" y1="173" x2="454" y2="173" stroke="#D9D7D3" stroke-width="0.6"/>
+<circle cx="338" cy="198" r="3" fill="#2C6AA5" stroke="none" stroke-width="0"/>
+<text x="348" y="196" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="700" fill="#243747">报销申请被驳回</text>
+<text x="348" y="211" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#667784">昨天 · 查看理由</text>
+<line x1="336" y1="223" x2="454" y2="223" stroke="#D9D7D3" stroke-width="0.6"/>
+<rect x="336" y="286" width="118" height="29" rx="4" fill="#EDF3E9" stroke="#64894D" stroke-width="0.6"/>
+<text x="395" y="304" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.2" font-weight="400" fill="#667784">仅本人可读取 / 标记已读</text>
+<text x="14" y="356" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#243747">统一页面状态反馈</text>
+<rect x="14" y="365" width="84" height="48" rx="5" fill="#EDF3E9" stroke="#64894D" stroke-width="1.1"/>
+<text x="56.0" y="388" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">加载</text>
+<text x="56.0" y="406" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">骨架屏</text>
+<rect x="104" y="365" width="84" height="48" rx="5" fill="#EDF3E9" stroke="#64894D" stroke-width="1.1"/>
+<text x="146.0" y="388" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">空结果</text>
+<text x="146.0" y="406" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">清除筛选</text>
+<rect x="194" y="365" width="84" height="48" rx="5" fill="#EDF3E9" stroke="#64894D" stroke-width="1.1"/>
+<text x="236.0" y="388" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">校验错误</text>
+<text x="236.0" y="406" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">定位字段</text>
+<rect x="284" y="365" width="84" height="48" rx="5" fill="#FCF1E3" stroke="#D88C27" stroke-width="1.1"/>
+<text x="326.0" y="388" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">操作失败</text>
+<text x="326.0" y="406" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">保留输入</text>
+<rect x="374" y="365" width="84" height="48" rx="5" fill="#FCF1E3" stroke="#D88C27" stroke-width="1.1"/>
+<text x="416.0" y="388" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">危险操作</text>
+<text x="416.0" y="406" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">二次确认</text>
+</svg>

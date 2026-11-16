@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="109.34mm" viewBox="0 0 482 310" role="img">
+<title>技术结构与模块依赖</title>
+<rect x="0" y="0" width="482" height="310" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">技术结构与模块依赖</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">模块化单体统一授权与事务边界，MySQL 和附件存储独立持久化</text>
+<rect x="82" y="60" width="318" height="34" rx="4" fill="#EDF3E9" stroke="#64894D" stroke-width="1"/>
+<text x="154" y="81" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#243747">响应式 Web 页面</text>
+<text x="295" y="81" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="400" fill="#243747">员工 / 审批人 / 管理员入口</text>
+<rect x="82" y="105" width="318" height="34" rx="4" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1"/>
+<text x="154" y="126" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#243747">应用与 API</text>
+<text x="295" y="126" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="400" fill="#243747">认证授权 · 用例编排 · 输入校验</text>
+<rect x="82" y="150" width="318" height="34" rx="4" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="1"/>
+<text x="154" y="171" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">领域模块</text>
+<text x="295" y="171" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="400" fill="#FFFFFF">业务规则 · 状态机 · 模板解析 · 权限策略</text>
+<rect x="82" y="195" width="318" height="34" rx="4" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1"/>
+<text x="154" y="216" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#243747">数据访问与事件</text>
+<text x="295" y="216" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.2" font-weight="400" fill="#243747">Repository · 迁移 · 通知 / 审计事件</text>
+<line x1="241" y1="94" x2="241" y2="99" stroke="#667784" stroke-width="1.6"/>
+<path d="M237 99 L241 105 L245 99 Z" fill="#667784" stroke="none"/>
+<line x1="241" y1="139" x2="241" y2="144" stroke="#667784" stroke-width="1.6"/>
+<path d="M237 144 L241 150 L245 144 Z" fill="#667784" stroke="none"/>
+<line x1="241" y1="184" x2="241" y2="189" stroke="#667784" stroke-width="1.6"/>
+<path d="M237 189 L241 195 L245 189 Z" fill="#667784" stroke="none"/>
+<rect x="25" y="252" width="124" height="42" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="87.0" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">受控附件存储</text>
+<text x="87.0" y="293" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">元数据在库 · 文件在卷</text>
+<rect x="179" y="246" width="124" height="54" rx="5" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="1.1"/>
+<text x="241.0" y="269" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#FFFFFF">MySQL 8 / InnoDB</text>
+<text x="241.0" y="287" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#FFFFFF">事务 · 外键 · 唯一约束</text>
+<rect x="333" y="252" width="124" height="42" rx="5" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1.1"/>
+<text x="395.0" y="275" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#243747">Docker Compose</text>
+<text x="395.0" y="293" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">应用 · 数据库 · 持久卷</text>
+<line x1="87" y1="252" x2="87" y2="235" stroke="#667784" stroke-width="1.6"/>
+<path d="M83 235 L87 229 L91 235 Z" fill="#667784" stroke="none"/>
+<line x1="241" y1="246" x2="241" y2="235" stroke="#667784" stroke-width="1.6"/>
+<path d="M237 235 L241 229 L245 235 Z" fill="#667784" stroke="none"/>
+<line x1="395" y1="252" x2="395" y2="235" stroke="#667784" stroke-width="1.6"/>
+<path d="M391 235 L395 229 L399 235 Z" fill="#667784" stroke="none"/>
+</svg>

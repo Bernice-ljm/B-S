@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170mm" height="102.28mm" viewBox="0 0 482 290" role="img">
+<title>验证策略：由规则到完整部署</title>
+<rect x="0" y="0" width="482" height="290" fill="#FFFFFF"/>
+<text x="16" y="22" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="700" fill="#243747">验证策略：由规则到完整部署</text>
+<text x="16" y="38" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">越靠上数量越少、范围越大；关键权限与并发路径必须进入集成测试</text>
+<path d="M65 235 L417 235 L380 190 L102 190 Z" fill="#F8FAFB" stroke="#BCC7CF" stroke-width="1"/>
+<path d="M102 190 L380 190 L344 145 L138 145 Z" fill="#EDF3E9" stroke="#64894D" stroke-width="1"/>
+<path d="M138 145 L344 145 L307 100 L175 100 Z" fill="#EFF3F5" stroke="#7C8E9B" stroke-width="1"/>
+<path d="M175 100 L307 100 L270 55 L212 55 Z" fill="#2C6AA5" stroke="#1F4F7D" stroke-width="1.1"/>
+<text x="241" y="217" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#243747">单元测试</text>
+<text x="241" y="229" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">金额 · 字段校验 · 状态机 · 审批人解析</text>
+<text x="241" y="172" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#243747">集成测试</text>
+<text x="241" y="184" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">MySQL 事务 · 权限 · 附件 · 通知幂等</text>
+<text x="241" y="127" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#243747">端到端测试</text>
+<text x="241" y="139" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7" font-weight="400" fill="#243747">提交 → 多角色审批 → 终态 → 查询</text>
+<text x="241" y="80" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">部署验收</text>
+<text x="241" y="92" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="6.5" font-weight="400" fill="#FFFFFF">Compose · 迁移 · 重启持久化</text>
+<text x="241" y="268" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="7.5" font-weight="400" fill="#243747">重点证据：越权拒绝 ｜ 重复审批仅一次生效 ｜ 服务重启后记录仍可查询</text>
+</svg>

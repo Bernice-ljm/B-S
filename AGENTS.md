@@ -1,6 +1,6 @@
 # Development Rules
 
-The authoritative requirements are `assignment(2026).pdf` and `中期设计文档.md`. The latter defines the concrete architecture, states, permissions, database constraints, and API contracts.
+The authoritative requirements are `docs/assignment(2026).pdf` and `docs/中期设计文档.md`. The latter defines the concrete architecture, states, permissions, database constraints, and API contracts.
 
 ## Technology Baseline
 
@@ -21,5 +21,3 @@ The authoritative requirements are `assignment(2026).pdf` and `中期设计文�
 - Do not commit `.env`, secrets, tokens, real receipts, uploaded files, database volumes, dependency directories, or build output.
 - Do not implement deferred features such as `HARD_LIMIT`, OCR, cross-application duplicate receipt detection, or a standalone mobile client without explicit approval.
 - Keep each commit buildable and scoped to one verifiable change. Update migrations, tests, and documentation together when their contract changes.
-
-The Chinese workflow and Git guidance in `agent.md` remains applicable where it does not conflict with this file.
