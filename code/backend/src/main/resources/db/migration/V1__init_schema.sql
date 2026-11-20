@@ -270,7 +270,8 @@ CREATE TABLE procurement_quotes (
     ) STORED,
     CONSTRAINT uk_quote_id_procurement UNIQUE (id, procurement_id),
     CONSTRAINT uk_procurement_selected_quote UNIQUE (selected_procurement_id),
-    CONSTRAINT fk_quote_procurement FOREIGN KEY (procurement_id) REFERENCES procurement_details (application_id) ON DELETE CASCADE,
+    INDEX idx_quote_procurement (procurement_id),
+    CONSTRAINT fk_quote_procurement FOREIGN KEY (procurement_id) REFERENCES procurement_details (application_id),
     CONSTRAINT ck_quote_total CHECK (quote_total_minor >= 0),
     CONSTRAINT ck_quote_selection_reason CHECK (NOT is_selected OR selection_reason IS NOT NULL)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci;
