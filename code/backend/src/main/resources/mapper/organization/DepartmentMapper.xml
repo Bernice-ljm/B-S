@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.zju.approval.organization.DepartmentMapper">
+    <select id="findById" resultType="edu.zju.approval.organization.DepartmentRecord">
+        SELECT id, department_code, name, parent_id, status, created_at, updated_at
+        FROM departments
+        WHERE id = #{id}
+    </select>
+
+    <select id="existsById" resultType="boolean">
+        SELECT EXISTS(SELECT 1 FROM departments WHERE id = #{id})
+    </select>
+</mapper>

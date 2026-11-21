@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.zju.approval.user.UserMapper">
+    <sql id="userColumns">
+        id, department_id, username, full_name, email, password_hash, status, created_at, updated_at
+    </sql>
+
+    <select id="findById" resultType="edu.zju.approval.user.UserRecord">
+        SELECT <include refid="userColumns"/>
+        FROM users
+        WHERE id = #{id}
+    </select>
+
+    <select id="findByUsername" resultType="edu.zju.approval.user.UserRecord">
+        SELECT <include refid="userColumns"/>
+        FROM users
+        WHERE username = #{username}
+    </select>
+</mapper>

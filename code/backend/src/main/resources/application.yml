@@ -31,7 +31,7 @@ spring:
       max-request-size: ${UPLOAD_MAX_REQUEST_SIZE:25MB}
 
 mybatis:
-  mapper-locations: classpath*:mapper/**/*.xml
+  mapper-locations: classpath*:mapper/*/*.xml
   type-aliases-package: edu.zju.approval
   configuration:
     map-underscore-to-camel-case: true
