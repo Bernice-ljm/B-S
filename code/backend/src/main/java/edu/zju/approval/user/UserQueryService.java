@@ -30,6 +30,10 @@ public class UserQueryService {
         return userMapper.findByUsername(username);
     }
 
+    public Optional<UserRecord> findAuthenticationRecordById(long id) {
+        return userMapper.findById(id);
+    }
+
     public Optional<UserProfile> findProfileByUsername(String username) {
         return userMapper.findByUsername(username).map(this::toProfile);
     }
