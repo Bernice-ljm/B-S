@@ -5,10 +5,8 @@ import edu.zju.approval.auth.AuthenticatedUser;
 import edu.zju.approval.auth.CurrentUser;
 import edu.zju.approval.workflow.runtime.WorkflowInstanceStatus;
 import edu.zju.approval.workflow.runtime.WorkflowNodeStatus;
-import edu.zju.approval.workflow.runtime.WorkflowTaskStatus;
 import org.springframework.stereotype.Service;
 
-import java.util.Objects;
 
 @Service
 public class AuthorizationService {
@@ -29,7 +27,7 @@ public class AuthorizationService {
         if (user.userId() == context.application().applicantId()
                 || context.relationship() == ApplicationAccessRelationship.EXPLICIT_READ_GRANT) return true;
         return context.application().status() == ApplicationStatus.IN_APPROVAL
-                && currentAssignee(context).map(id -> id == user.userId()).orElse(false);
+                && isCurrentAssignee(context, user.userId());
     }
 
     public boolean canEditDraft(ApplicationAccessContext context) {
@@ -50,7 +48,7 @@ public class AuthorizationService {
         return user != null && context != null
                 && context.application().status() == ApplicationStatus.IN_APPROVAL
                 && user.userId() != context.application().applicantId()
-                && currentAssignee(context).map(id -> id == user.userId()).orElse(false);
+                && isCurrentAssignee(context, user.userId());
     }
 
     public boolean canDownloadAttachment(AttachmentAccessContext context) {
@@ -61,18 +59,17 @@ public class AuthorizationService {
         return context != null && canViewApplication(user, context.owningApplication());
     }
 
-    private static java.util.Optional<Long> currentAssignee(ApplicationAccessContext context) {
-        var instance = context.workflowInstance();
+    private static boolean isCurrentAssignee(ApplicationAccessContext context, long userId) {
+        var instance = context.workflowAccess();
         if (instance == null || instance.applicationId() != context.application().id()
-                || instance.status() != WorkflowInstanceStatus.PENDING || instance.currentNodeId() == null) {
-            return java.util.Optional.empty();
+                || instance.instanceStatus() != WorkflowInstanceStatus.PENDING || instance.currentNodeId() == null) {
+            return false;
         }
-        return instance.nodes().stream()
-                .filter(node -> Objects.equals(node.id(), instance.currentNodeId()))
-                .filter(node -> node.status() == WorkflowNodeStatus.PENDING)
-                .flatMap(node -> node.task().stream())
-                .filter(task -> task.status() == WorkflowTaskStatus.PENDING)
-                .map(task -> task.assigneeId())
-                .findFirst();
+        if (!instance.currentNodeId().equals(instance.nodeId())
+                || instance.nodeStatus() != WorkflowNodeStatus.PENDING) {
+            return false;
+        }
+        return instance.currentTasks().stream()
+                .anyMatch(task -> task.assigneeId() == userId);
     }
 }

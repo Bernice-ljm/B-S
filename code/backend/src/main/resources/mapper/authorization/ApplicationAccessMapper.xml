@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.zju.approval.authorization.ApplicationAccessMapper">
+    <resultMap id="applicationMap" type="edu.zju.approval.application.domain.Application">
+        <constructor>
+            <idArg column="id" javaType="java.lang.Long"/>
+            <arg column="application_no" javaType="java.lang.String"/>
+            <arg column="application_type" javaType="edu.zju.approval.application.domain.ApplicationType"/>
+            <arg column="applicant_id" javaType="_long"/>
+            <arg column="department_id" javaType="_long"/>
+            <arg column="title" javaType="java.lang.String"/>
+            <arg column="total_amount_minor" javaType="java.lang.Long"/>
+            <arg column="status" javaType="edu.zju.approval.application.domain.ApplicationStatus"/>
+            <arg column="submitted_at" javaType="java.time.LocalDateTime"/>
+            <arg column="created_at" javaType="java.time.LocalDateTime"/>
+            <arg column="updated_at" javaType="java.time.LocalDateTime"/>
+            <arg column="row_version" javaType="_int"/>
+        </constructor>
+    </resultMap>
+
+    <select id="findApplicationById" resultMap="applicationMap">
+        SELECT id, application_no, application_type, applicant_id, department_id, title,
+               total_amount_minor, status, submitted_at, created_at, updated_at, row_version
+        FROM applications
+        WHERE id = #{applicationId}
+    </select>
+
+    <select id="findWorkflowByApplicationId"
+            resultType="edu.zju.approval.authorization.PersistedWorkflowAccess">
+        SELECT wi.id AS instance_id,
+               wi.application_id,
+               wi.template_version_id,
+               wi.fixed_workflow_version_key,
+               wi.status AS instance_status,
+               wi.current_node_id,
+               wi.row_version AS instance_row_version,
+               wi.created_at AS instance_created_at,
+               wi.updated_at AS instance_updated_at,
+               wi.completed_at AS instance_completed_at,
+               node.id AS node_id,
+               node.sequence_no,
+               node.node_name,
+               node.approval_mode,
+               CAST(node.rule_snapshot AS CHAR) AS rule_snapshot,
+               node.status AS node_status,
+               node.acted_at AS node_acted_at,
+               node.created_at AS node_created_at
+        FROM workflow_instances wi
+        LEFT JOIN workflow_instance_nodes node
+               ON node.id = wi.current_node_id AND node.instance_id = wi.id
+        WHERE wi.application_id = #{applicationId}
+    </select>
+
+    <select id="findCurrentPendingTasks"
+            resultType="edu.zju.approval.authorization.PersistedWorkflowTaskAccess">
+        SELECT task.id AS task_id,
+               task.node_id,
+               task.assignee_id,
+               task.status AS task_status,
+               task.opinion AS task_opinion,
+               task.acted_at AS task_acted_at,
+               task.created_at AS task_created_at
+        FROM workflow_instances wi
+        JOIN workflow_instance_nodes node
+          ON node.id = wi.current_node_id AND node.instance_id = wi.id
+        JOIN workflow_node_tasks task
+          ON task.node_id = node.id AND task.status = 'PENDING'
+        WHERE wi.application_id = #{applicationId}
+          AND wi.id = #{instanceId}
+          AND wi.status = 'PENDING'
+          AND wi.current_node_id = #{nodeId}
+          AND node.id = #{nodeId}
+          AND node.status = 'PENDING'
+        ORDER BY task.id
+    </select>
+
+    <select id="findBoundApplicationIdsByAttachmentId" resultType="long">
+        SELECT bind.application_id
+        FROM attachments attachment
+        JOIN attachment_binds bind ON bind.attachment_id = attachment.id
+        WHERE attachment.id = #{attachmentId}
+        ORDER BY bind.application_id
+    </select>
+</mapper>

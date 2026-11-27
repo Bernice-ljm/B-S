@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public record ApplicationAccessContext(
         Application application,
-        WorkflowInstance workflowInstance,
+        WorkflowAccessSnapshot workflowAccess,
         ApplicationAccessRelationship relationship) {
 
     public ApplicationAccessContext {
@@ -15,8 +15,19 @@ public record ApplicationAccessContext(
         Objects.requireNonNull(relationship, "relationship");
     }
 
+    public ApplicationAccessContext(
+            Application application, WorkflowInstance workflowInstance,
+            ApplicationAccessRelationship relationship) {
+        this(application, WorkflowAccessSnapshot.fromDomain(workflowInstance), relationship);
+    }
+
     public static ApplicationAccessContext withoutExplicitGrant(
             Application application, WorkflowInstance workflowInstance) {
         return new ApplicationAccessContext(application, workflowInstance, ApplicationAccessRelationship.NONE);
+    }
+
+    public static ApplicationAccessContext withoutExplicitGrant(
+            Application application, WorkflowAccessSnapshot workflowAccess) {
+        return new ApplicationAccessContext(application, workflowAccess, ApplicationAccessRelationship.NONE);
     }
 }
